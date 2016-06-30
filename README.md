@@ -1,7 +1,7 @@
 # Pet Adoptions
 This a CRUD (Create Read Update Delete) app created with angularJS. It list pets avaiable for adoption with contact info.
 	
-App uses the folling:
+App uses the following:
 - Google's Angular Material Design: material.angularjs.org (UI components - Toolbar, button, card, icon, sidenav, toast, dialog);
 - use ng-repeat 
 - implement filters and hiding & showing parts of the UI. 
