@@ -1,0 +1,172 @@
+[{
+    "id": "1",
+    "title": "My name is Alexa!",
+    "description": "Act quickly to adopt Alexa. Pets at this rescue group may be held for only a short time.",
+    "adoptionfee": 30,
+    "posted": "2015-10-24",
+    "contact": {
+        "name": "Halo For Animals",
+        "phone": "(573) 205-5444",
+        "email": "info@haloforanimals.com"
+    },
+    "categories": [
+        "Young",
+        "Mix",
+        "Dog",
+        "Female"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/8/7/d/212770784.jpg",
+    "views": 213
+}, {
+    "id": "2",
+    "title": "My name is Chloe!",
+    "description": "Female tabby! This little baby will be ready for adoption soon",
+    "adoptionfee": 50,
+    "posted": "2015-10-28",
+    "contact": {
+        "name": "No Time to Spare Animal Rescue and Sanctuary",
+        "phone": "(816) 465-2686",
+        "email": "nttsars@yahoo.com"
+    },
+    "categories": [
+        "Kitten",
+        "Domestic Longhair",
+        "Cat",
+        "Female"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/b/e/b/212503964.jpg",
+    "views": 422
+}, {
+    "id": "3",
+    "title": "My name is Mandy!",
+    "description": "Hello, my name is Mandy. I am a long, lanky, leggy Lab mix girl who is sweet, but very energetic and excitable. I may be a bit shy at first, but I'll get over it. I know a command or two, plus, I am very treat motivated, and that should make teaching me easier. I get along with other dogs, and love it when we go out to the yards for sunshine and play time!! I can be a bit mouthy, but I think that enough exercise and some training will go a long way to getting that under control. Won't you come out and meet me?",
+    "adoptionfee": 120,
+    "posted": "2015-10-27",
+    "contact": {
+        "name": "Open Door Animal Sanctuary",
+        "phone": "(636) 671-3643",
+        "email": "Office@odas.org"
+    },
+    "categories": [
+        "Adult",
+        "Mix",
+        "Dog",
+        "Female"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/3/4/9/201758004.jpg",
+    "views": 23
+}, {
+    "id": "4",
+    "title": "My name is Elvis!",
+    "description": "Hello, my name is Elvis. I am a 3 year old Hound who is very very shy until I warm up to you. After I warm up, I am very sweet. I get along with other dogs and cats. But due to my shyness, I don't think that I would do well with children. I can be playful and goofy, but I'm usually a quiet kind of guy. They bring me into the kitchen part of the kennel during the day, and I love to lay around watching all the activity going on around me. I was found as a stray and brought here, and it's not so bad, once you get used to it. Won't you come and meet me?",
+    "adoptionfee": 120,
+    "posted": "2015-11-01",
+    "contact": {
+        "name": "Open Door Animal Sanctuary",
+        "phone": "(636) 671-3643",
+        "email": "Office@odas.org"
+    },
+    "categories": [
+        "Adult",
+        "Mix",
+        "Dog",
+        "Male"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/3/2/f/175644211.jpg",
+    "views": 77
+}, {
+    "id": "5",
+    "title": "My name is Wiley!",
+    "description": "My name is Wiley and I'm searching for my furever home! I like to play, cuddle and play some more! I'm a fully vetted, very active 6 month old PUPPY, I would be great for an active single person or family, I get along with other dogs and cats and would like a home with another dog to play with and I am potty trained.",
+    "adoptionfee": 300,
+    "posted": "2015-11-02",
+    "contact": {
+        "name": "Act Now Rescue - St Louis Mo",
+        "phone": "314-605-1497",
+        "email": "info@actnowrescue.net"
+    },
+    "categories": [
+        "Puppy",
+        "Dog",
+        "Mix",
+        "Male"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/0/4/3/207534113.jpg",
+    "views": 889
+}, {
+    "id": "6",
+    "title": "My name is Achilles!",
+    "description": "This cute little guy is Achilles, an 8 week old (born 4/25) Pit Bull Terrier mix.  Achilles loves running around the house playing with his sister.  His favorite toy is a rope and he loves to play tug of war.  Achilles is crate trained and has begun working on house training.  He will be ready for adoption the end of June. ",
+    "adoptionfee": 250,
+    "posted": "2015-11-03",
+    "contact": {
+        "name": "Needy Paws Rescue",
+        "phone": "(555) 555-5555",
+        "email": "needypawsstl@gmail.com"
+    },
+    "categories": [
+        "Puppy",
+        "Dog",
+        "Mix",
+        "Male"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/5/2/e/212410062.jpg",
+    "views": 423
+}, {
+    "id": "7",
+    "title": "My name is Casey!",
+    "description": "My name is CASEY and I'm the cutest cat in all of OPEN DOOR. I was rescued from an Animal Control facility in Louisiana, my number was almost up. When I first got here, I was still pretty scared but when I figured out what a great place this is, I really blossomed. Now everyone loves me. I go everywhere and talk to all of the other cats and the employees. The way to my heart is definitely treats. I love them!!! I have a very cute face, a very cute personality, and a very cute voice. See, I'm just a ball of cute. You should come down and fall in love with me. Just tell them you have treats for CASEY.",
+    "adoptionfee": 120,
+    "posted": "2015-11-03",
+    "contact": {
+        "name": "Open Door Animal Sanctuary",
+        "phone": "(636) 671-3643",
+        "email": "Office@odas.org"
+    },
+    "categories": [
+        "Domestic Shorthair",
+        "Cat",
+        "Adult",
+        "Female"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/5/2/e/212410062.jpg",
+    "views": 423
+}, {
+    "id": "8",
+    "title": "My name is Baby Gato!",
+    "description": "Hey there, I'm BABY GATO, and I'm ready for a new home. I was adopted from OPEN DOOR when I was just a baby. Unfortunately, my family moved into an apartment that wouldn't allow me to come with them. I found myself back at the shelter and depressed. After I realized that everyone here loved me, I got better. Now I'm a happy girl that is ready to move on up to a forever home. I've got a great personality that I know you'll absolutely fall in love with. I love to hang out and help you in the kitchen, and if you let me hang out in the cabinets, I'm an even happier girl. So if you are looking for a great cat to share your life, please come visit with me. Ask to meet BABY GATO.",
+    "adoptionfee": 120,
+    "posted": "2015-11-03",
+    "contact": {
+        "name": "Open Door Animal Sanctuary",
+        "phone": "(636) 671-3643",
+        "email": "Office@odas.org"
+    },
+    "categories": [
+        "Domestic Shorthair",
+        "Cat",
+        "Adult",
+        "Female"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/8/f/d/142035705.jpg",
+    "views": 423
+}, {
+    "id": "9",
+    "title": "My name is Brutus!",
+    "description": "Et tu, Brute? Yes, me too, I'm available for adoption! Right now I am attending an awesome training camp for smart dogs like myself. I am looking for an owner that will continue everything I've learned in training and will give me stability and boundaries. I come from a working breed and I have a tendency to protect and guard things that don't necessarily need guarding. I am working on that now. The trainers say that my basic training is going very well. I love to learn! Look at me in my place command. I am rocking it!!! If you would like to be my leader and family I promise I'll be a loyal and loving boy. Oh yeah, and if you didn't figure it out my name is Brutus.",
+    "adoptionfee": 120,
+    "posted": "2015-11-03",
+    "contact": {
+        "name": "4 Paws 4 Rescue",
+        "phone": "(636) 671-3643",
+        "email": "adopt@4paws4rescue.com"
+    },
+    "categories": [
+        "Mix",
+        "Dog",
+        "Adult",
+        "Male"
+    ],
+    "image": "https://s3.amazonaws.com/pet-uploads.adoptapet.com/b/2/2/208146048.jpg",
+    "views": 423
+}]

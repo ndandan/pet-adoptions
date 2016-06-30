@@ -1,0 +1,134 @@
+button .material-icons {
+    margin-top: 7px;
+}
+
+md-input-container#category {
+    margin-bottom: 42px;
+}
+
+button#clear {
+    margin-bottom: 20px;
+}
+
+md-toolbar-tools {
+    height: 600px;
+    ;
+}
+
+.adoption.ng-enter,
+.adoption.ng-move {
+    transition: .4s all;
+    opacity: 0;
+}
+
+.adoption.ng-enter.ng-enter-active,
+.adoption.ng-move.ng-move-active {
+    opacity: 1;
+}
+
+.adoption.ng-leave {
+    animation: .4s fade_adoption;
+}
+
+@keyframes fade_adoption {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #607D8B;
+    border-color: #607D8B;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #fec503;
+    border-color: #f6bf01
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none
+}
+
+header {
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 1000px;
+    background-color: #6C6666;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 78px;
+}
+
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px
+}
+
+header .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px
+}
+
+@media (min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        margin-top: 85px;
+    }
+    header .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px
+    }
+    header .intro-text .intro-heading {
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+        color: #FFFFFF;
+    }
+}
+
+
+@media(min-width:767px) {
+    header {
+        background-image: url(../img/header-bg.jpg);
+    }
+}

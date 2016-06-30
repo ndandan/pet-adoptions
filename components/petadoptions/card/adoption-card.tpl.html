@@ -1,0 +1,37 @@
+    <md-card ng-repeat="adoption in adoptions | filter: adoptionsFilter | filter: category" flex="30" class="adoption" layout-align="start center">
+        
+        <md-card-content>
+            <md-card-title-text class="adoption-info" ng-show="!showContact">
+                <p class="md-headline">{{ adoption.title }}</p>
+                <p class="md-subhead">Adoption Fee: {{ adoption.adoptionfee | currency }}</p>
+                <p class="md-subhead">{{ adoption.description }}</p>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-lg card-media"><center><img ng-src="{{ adoption.image }}" alt="petPhoto"></center></div>
+            </md-card-title-media>
+        </md-card-content>
+
+        <md-card-content>
+            <md-card-title-text class="adoption-contact" ng-show="showContact">
+                <p><md-icon class="mdi mdi-account"></md-icon> {{ adoption.contact.name }} </p>
+                <p><md-icon class="mdi mdi-phone"></md-icon> {{ adoption.contact.phone }} </p>
+                <p><md-icon class="mdi mdi-email"></md-icon> {{ adoption.contact.email }} </p>
+            </md-card-title-text>
+        </md-card-content>
+
+        <div layout="row">
+            <md-button ng-show="!showContact" ng-click="showContact = true">Contact</md-button>
+            <md-button ng-show="showContact" ng-click="showContact = false">Info</md-button>
+            <md-button ng-show="!showAdmin" ng-click="showAdmin = true">Admin</md-button>
+            <md-button ng-show="showAdmin" ng-click="showAdmin = false">Close</md-button>
+        </div>
+
+        <div class="adoption-admin" ng-if="showAdmin">
+            <h3>Admin</h3>
+            <div layout="row">
+                <md-button class="md-primary" ng-click="vm.editAdoption(adoption)">Edit</md-button>
+                <md-button ng-click="vm.deleteAdoption($event, adoption)" class="md-warn">Delete</md-button>
+            </div>
+        </div>
+
+    </md-card>
