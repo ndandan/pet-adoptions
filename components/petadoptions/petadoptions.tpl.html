@@ -39,12 +39,12 @@
         </md-select>
     </md-input-container>
     <div layout="row">
-        <md-button ng-click="classifiedsFilter = '';category=''; showFilters= false" class="md-raised" id="clear">
+        <md-button ng-click="adoptionsFilter = '';category=''; showFilters= false" class="md-raised" id="clear">
             Clear
         </md-button>
     </div>
 </div>
 <ui-view></ui-view>
 <md-content>
-    <adoption-card adoptions="vm.adoptions" adoption-filter="adoptionsFilter" category="category" class="md-padding" layout="row" layout-wrap></adoption-card>
+    <adoption-card adoptions="vm.adoptions" pet-login="petLogin" adoptions-filter="adoptionsFilter" category="category" class="md-padding" layout="row" layout-wrap></adoption-card>
 </md-content>

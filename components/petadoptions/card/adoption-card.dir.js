@@ -10,11 +10,12 @@
                 scope: {
                     adoptions: "=adoptions",
                     adoptionsFilter: "=adoptionsFilter",
-                    category: "=category"
+                    category: "=category",
+                    petLogin: "=petLogin"
                 },
                 controller: adoptionCardCtrl,
                 controllerAs: "vm"
-            }
+            };
 
 
             function adoptionCardCtrl($state, $scope, $mdDialog) {
@@ -28,7 +29,7 @@
                     $state.go('adoptions.edit', {
                         id: adoption.$id
                     });
-                };
+                }
 
                 function deleteAdoption(event, adoption) {
                     var confirm = $mdDialog.confirm()
@@ -55,6 +56,6 @@
 
 
             }
-        })
+        });
 
 })();

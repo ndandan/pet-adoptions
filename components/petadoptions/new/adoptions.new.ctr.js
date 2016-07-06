@@ -11,12 +11,14 @@
             vm.closeSidebar = closeSidebar;
             vm.saveAdoption = saveAdoption;
 
+            //set label for the form
             vm.sidebarTitle = 'Add a Pet';
 
             $timeout(function() {
                 $mdSidenav('left').open();
             });
 
+            //checking to see if sidebar is closed, if so change state back to /#adoptions
             $scope.$watch('vm.sidenavOpen', function(sidenav){
             	if(sidenav === false){
             		$mdSidenav('left')
@@ -27,17 +29,21 @@
             	}
             });
 
+            //closes sidebar
             function closeSidebar() {
             	vm.sidenavOpen = false;
             }
 
+
+            //emits to the listener in the mian controller
             function saveAdoption(adoption) {
             	if(adoption) {
-                    adoption.contact = {
-                        name: "John Doe",
-                        phone: "(555) 555-5555",
-                        email: "jdoe@gmail.com"
-                    }
+                    // Default contact info
+                    // adoption.contact = {
+                    //     name: "John Doe",
+                    //     phone: "(555) 555-5555",
+                    //     email: "jdoe@gmail.com"
+                    // }
             		$scope.$emit('newAdoption', adoption);
             		vm.sidenavOpen = false;
             	}

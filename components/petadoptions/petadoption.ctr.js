@@ -34,12 +34,6 @@
                 showToast(message);
             });
 
-            // var contact = {
-            //     name: "John Doe",
-            //     phone: "(555)555-5555",
-            //     email: "jdoe@gmail.com"
-            // }
-
             function openSidebar() {
                 $state.go('adoptions.new');
             }
@@ -81,8 +75,7 @@
                 $mdDialog.show(confirm).then(function() {
                     vm.adoptions.$remove(adoption);
                     showToast("Pet Ad Deleted!");
-                }, function() {
-                });
+                }, function() {});
             }
 
             function showToast(message) {
@@ -111,4 +104,3 @@
         }]);
 
 })();
-

@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/ndandan/pet-adoptions/issues"
   },
-  "homepage": "https://github.com/ndandan/pet-classifieds#readme",
+  "homepage": "https://github.com/ndandan/pet-adoptions#readme",
   "dependencies": {
     "angular": "^1.5.7",
     "angular-aria": "^1.5.7",
