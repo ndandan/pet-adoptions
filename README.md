@@ -34,7 +34,7 @@ App uses the following:
 - use ControllerAs
 - set up Card Directive
 - Set up Backend with Firebase (reading, adding, editing & deleting data)
-	
+
 # Features:
 	
 	
